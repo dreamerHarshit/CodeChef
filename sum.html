@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<h1> IMAGE SWAPPING </h1>
+<img id = "demo" onclick="changeImage()" src="924554-teamsmall-1437897539.jpg" width="400"
+height="500">
+<p>click the picture to swap</p> 
+<script>
+function changeImage(){
+          var image = document.getElementById('demo');
+  if (image.src.match("eminem_tattoo_nike_hands_floor_1845_1920x1080")){
+       image.src =  "924554-teamsmall-1437897539.jpg";
+  }else {
+       image.src = "eminem_tattoo_nike_hands_floor_1845_1920x1080.jpg";
+   }
+}
+</script>
+</body>

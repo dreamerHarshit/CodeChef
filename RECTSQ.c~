@@ -1,0 +1,32 @@
+#include<bits/stdc++.h>
+
+#define  s(t) scanf("%d",&t);
+#define  S(x,y) scanf("%d%d",&x,&y)
+#define  q(x,y,z) scanf("%d%d%d",&x,&y,&z)
+#define  p(t) printf("%d\n",t)
+
+using namespace std;
+
+int gcd(int a,int b)
+{
+ if(a==0)
+    return b;
+ else
+    return gcd(b%a,a);   
+}
+
+int main()
+{
+ int t;
+ s(t);
+ while(t--)
+ {
+ int m,n,y,x,d;
+ S(n,m);
+ x=gcd(n,m);
+ d=x*x;
+ y=(m*n)/d;
+ p(y);
+ }  
+return 0;
+}

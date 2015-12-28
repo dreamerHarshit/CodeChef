@@ -1,0 +1,8 @@
+#include<bits/stdc++.h>
+
+#define  s(t) scanf("%lld",&t);
+#define  S(x,y) scanf("%lld%lld",&x,&y)
+#define  q(x,y,z) scanf("%lld%lld%lld",&x,&y,&z)
+#define  p(t) printf("%lld\n",t)
+
+using namespace std;

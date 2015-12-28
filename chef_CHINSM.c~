@@ -1,0 +1,21 @@
+#include<iostream>
+#include<bits/stdc++.h>
+#include<string>
+#include<algorithm>
+using namespace std;
+int main()
+{
+ long long int n,i, k;
+ long long int v[10000];
+ 
+ scanf("%lld,%lld",&n,&k);
+ 
+ for(i=0;i<n;i++)
+ {
+  scanf("%lld",v[i]);
+ }
+
+
+
+return 0;
+}

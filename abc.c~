@@ -1,0 +1,30 @@
+#include"bits/stdc++.h"
+
+using namespace std;
+
+int main()
+{
+ int t;
+ scanf("%d",&t);
+ while(t--)
+ { 
+  int a;
+  scanf("%d",&a);
+  if(a==0)
+  {
+   printf("00:00\n");
+  }
+  else if(a==90)
+   {
+    printf("03:00\n");
+    printf("03:00\n");
+   }
+  else if(a==180)
+  {
+      printf("06:00\n");
+      printf("03:45\n");
+      printf("09:15\n");
+  }
+ }
+ return 0;
+}
